@@ -1,0 +1,54 @@
+{
+    "name": "Lander Game Alpha 2.4.1 UAT ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "controller": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "carnival": "github:microsoft/arcade-carnival#v0.0.7",
+        "radio-broadcast": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
+        "darts": "*",
+        "sprite-scaling": "*",
+        "color-coded-tilemap": "*",
+        "corgio": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.46",
+        "tag": "v1.12.46",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e66fb08db35df2249cd64300195259c64d497106",
+        "target": "2.0.2",
+        "pxt": "8.5.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
